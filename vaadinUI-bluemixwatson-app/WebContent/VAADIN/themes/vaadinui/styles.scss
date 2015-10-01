@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "vaadinui.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in vaadinui.scss */
+.vaadinui {
+  @include addons;
+  @include vaadinui;
+}
