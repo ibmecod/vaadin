@@ -11,7 +11,7 @@ import java.net.URL;
 
 public class WatsonService {
 
-	private static final String targetURL = "http://mobilestarterkit-fullwatson.mybluemix.net/api/service/searchtips/";
+	private static final String targetURL = "http://bluemixwatson-backend-restservices.mybluemix.net/api/service/searchtips/";
 	String response;
 	public String getResponseFromBluemixWatson(String forminput) {
 	//public static void main(String[] args) {
