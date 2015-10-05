@@ -44,9 +44,9 @@
      	font-weight: bold;
  	}
  	
- 	.v-table-cell-content .v-table-cell-break-word {
-		word-wrap: break-word; 
-	}
  	
+	.v-table-cell-wrapper {
+   		 white-space: normal;
+	}
   // Insert your own theme rules here
 }
